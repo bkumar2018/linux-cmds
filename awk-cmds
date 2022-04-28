@@ -11,3 +11,33 @@ awk '$2 !~ /ia/ {print $1}' teams.txt
  awk '$3 > 50 {print $1}' teams.txt
 
 awk 'BEGIN {print "Start Processing."}; {print $3}; END {print "End Processing"}' teams.txt 
+
+#Here is an example that uses the && operator to print the first field of those record whose third field is greater than 50 and the fourth field is less than 30:
+awk '$3 > 50 && $4 < 30 { print $1 }' teams.txt
+
+
+Below are some of the most common built-in Variables:
+
+NF - The number of fields in the record.
+NR - The number of the current record.
+FILENAME - The name of the input file that is currently processed.
+FS - Field separator.
+RS - Record separator.
+OFS - Output field separator.
+ORS - Output record separator.
+
+awk 'END { print "File", FILENAME, "contains", NR, "lines." }' teams.txt
+
+awk 'BEGIN { FS = "." } { print $1 }' teams.txt
+awk 'BEGIN { FS = "." } { print $2 }' teams.txt
+awk -F "." '{ print $1 }' teams.txt
+awk -F "." '{ print $2 }' teams.txt
+
+awk '{ sum += $3 } END { print sum }' teams.txt
+awk 'BEGIN { i = 1; while (i < 6) { print "Square of", i, "is", i*i; ++i } }'
+
+
+
+
+
+
