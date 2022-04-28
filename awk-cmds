@@ -1,0 +1,13 @@
+awk '{print $1}' data.txt
+awk '/0.5/ {print $1}' teams.txt
+awk '/^[0-9][0-9]/ {print $1}' teams.txt
+
+#For example, to print the first field of each record whose second field contains "ia" you would type:
+awk '$2 ~/ia/ {print $1}' teams.txt
+
+#To macth fields that do not contain given pattern use the !~ operator:
+awk '$2 !~ /ia/ {print $1}' teams.txt
+
+ awk '$3 > 50 {print $1}' teams.txt
+
+awk 'BEGIN {print "Start Processing."}; {print $3}; END {print "End Processing"}' teams.txt 
