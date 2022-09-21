@@ -3,3 +3,4 @@ Raptors Toronto    58 24 0.707
 76ers Philadelphia 51 31 0.622
 Celtics Boston     49 33 0.598
 Pacers Indiana     48 34 0.585
+Birender Singh     40 39 0.345
