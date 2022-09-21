@@ -1,0 +1,10 @@
+
+Ubuntu:
+
+sudo apt update
+sudo apt-get update
+
+#install netstat
+sudo apt install net-tools
+
+
