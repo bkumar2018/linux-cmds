@@ -7,3 +7,52 @@ find ./<DirName> -name *.txt
 
 find ./ -type f -name "*.txt" -exec grep 'Good' {} \;
 
+find . -name test.txt
+
+find /home -name somedata.txt
+
+find /home -iname somefile.txt  ---> ignoring cases
+
+find / -type d -name somedirName
+
+find . -type f -name somefile.php
+
+find . -type f -name somefile.php
+
+#Find and remove the file:
+find . -type f -name "somefindfile.txt" -exec rm -f {} \;
+
+#Find and remove multiple files
+find . -type f -name "*.txt" -exec rm -f {} \;
+
+#Find all empty files
+find /tmp -type f -empty
+
+#Find all empty dir
+find /tmp -type d -empty
+
+#Find all hidden files
+find /tmp -type f -name ".*"
+
+#Find last 50 days modified files
+find / -mtime 50
+
+#Find changed files in last 1 hour
+find / -cmin -60
+
+#modified file in last 1 hr
+find / -mmin -60
+
+#Find 50MB files
+find / -size 50M
+
+#Find size file between 50 - 100 MB
+find / -size +50M  -100M
+
+#Find and delete 100mb files
+find / -type f -size +100M -exec rm -f {} \;
+
+#Find specified files and delete
+find / -type f -name *.mp3 -size +100M -exec rm -f {} \;
+
+
