@@ -7,4 +7,15 @@ sudo apt-get update
 #install netstat
 sudo apt install net-tools
 
+sudo netstat -i
+sudo netstat -tulpen | grep 8080
+
+#List only listening TCP ports.
+netstat -lt   
+
+#The port which program is running
+netstat -ap | grep apache
+
+#Which process is using a particular port
+netstat -ap | grep ':80'
 
