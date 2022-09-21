@@ -1,0 +1,9 @@
+
+tree -a <DirName>
+
+find ./<DirName> -name sample.txt
+find ./<DirName> -name *.txt
+
+
+find ./ -type f -name "*.txt" -exec grep 'Good' {} \;
+
