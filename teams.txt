@@ -4,3 +4,8 @@ Raptors Toronto    58 24 0.707
 Celtics Boston     49 33 0.598
 Pacers Indiana     48 34 0.585
 Birender Singh     40 39 0.345
+Birender Singh     50 39 0.345
+Birender Singh     60 39 0.345
+Birender Singh     70 39 0.345
+Birender Singh     80 39 0.345
+Birender Singh     90 39 0.345
