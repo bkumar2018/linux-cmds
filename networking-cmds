@@ -1,0 +1,16 @@
+ping host
+whois domain
+
+dig domain
+dig -x host
+
+wget urlfilename  --> download file 
+wget -c urlfile  --> continue stopped download
+wget -r url     --> recursively download files from the url
+
+curl url    -> output the webpage from Url 
+
+
+ssh username@hostname      --> connect to host as a user 
+
+ssh -p portnumber username@host      --> connect using port 

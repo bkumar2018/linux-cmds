@@ -1,0 +1,46 @@
+
+date    --> show current date time
+uptime
+
+whoami  ->  which user logged in as 
+w   -> display who is online
+
+cat /proc/cpuinfo   ->  display cpu info
+cat /proc/meminfo   ->  memory info
+
+free    -> show memory and swap usage
+
+du  -> show directory space usage
+
+du -sh  ->  display readable size in GB
+
+df  -> show disk usages
+
+uname -a    -> show kernel info
+
+
+
+#Processes
+
+ps  -> display currently active porcesses 
+ps aux -> detailed outputs 
+
+kill -9 pid 
+killall proc   --> kill all processes named proc 
+
+ps -elf | grep 'processname'
+
+
+#Permissions 
+chmod -- chnages Permissions of file 
+
+4 - read (r)
+2 - write (w)
+1 - execute (x) 
+
+order   -> owner/group/world
+
+chmod 777   - rwx for everyone
+chmod 755   -  rw for owner, rx for group world 
+
+

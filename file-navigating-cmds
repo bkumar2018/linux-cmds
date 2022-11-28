@@ -1,0 +1,34 @@
+# ls - directory listing files/folder on current dir
+ls 
+ls -l
+ls -la 
+
+#dir 
+cd dirname
+cd - 
+cd ../dirname
+pwd
+mkdir newdirname
+
+#remove
+rm filename
+rm -f filename   --> force remove files 
+rm -r dirname    --> remove dir 
+rm -rf dirname
+
+#Nevere use below command its launches nucelar bomb removes whole system
+rm -rf /  
+
+cp file1 file2
+mv file1 file2
+
+mv file1 dir1/file2
+
+touch filename  -> create or update file Name
+
+cat file 
+cat > filename    --> write std input into file 
+cat >> filename   --> append std input into file 
+
+tail -f filename    --> output content of file as it grows
+
