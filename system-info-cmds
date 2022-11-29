@@ -44,3 +44,13 @@ chmod 777   - rwx for everyone
 chmod 755   -  rw for owner, rx for group world 
 
 
+locate  filename 
+whereis  appname 
+grep  pattern files 
+grep -r patter dirname 
+
+#Compressing
+tar -xvf nameoftarfile.tar 
+
+tar -cvf filename.tar  fiels    
+

@@ -1,0 +1,26 @@
+
+docker installed successfully,
+
+using commands:
+
+1. sudo docker ps
+
+2. Create Dockerfile
+FROM busybox
+RUN echo hello > /hello
+RUN echo world >> /hello
+RUN touch remove_me /remove_me
+ENV HELLO=world
+RUN rm /remove_me
+
+3. run command :  sudo docker build -t test .
+Build the Dockerfile and tag the image as 'test'
+
+4. run interactive mode:
+	sudo docker run -it test
+
+5. list all the pasued containers
+    sudo docker ps -a
+6.  list all the images n containers with sizes
+    sudo docker system df
+
