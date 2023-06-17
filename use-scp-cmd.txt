@@ -1,0 +1,9 @@
+#command to use scp to copies directories with scp command recursively
+
+sudo scp -rp /var/log/server1 user1@10.2.211.1:/homepath/of/user1/
+
+enter password of sudo
+enter password for dest server of user1
+
+r - for recursive
+p - preservation of modes and acces time
