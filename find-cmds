@@ -1,6 +1,15 @@
 
 tree -a <DirName>
 
+
+#find files 
+find / -name httpd.conf
+
+#find dir
+find /home -type d -name <nameOfDir>
+
+
+
 find ./<DirName> -name sample.txt
 find ./<DirName> -name *.txt
 

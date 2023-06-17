@@ -54,3 +54,7 @@ tar -xvf nameoftarfile.tar
 
 tar -cvf filename.tar  fiels    
 
+#log file where all login releated logs capture on the system 
+/var/log/auth.log
+tail -f /var/log/auth.log
+

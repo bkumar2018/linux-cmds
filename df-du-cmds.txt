@@ -1,0 +1,8 @@
+
+#command to display amount of disk space available on file system
+df -h
+
+#This below cmd is very helpful 
+#disk usage command to display size of files and folder in directory
+du -sh * 
+
