@@ -58,3 +58,8 @@ tar -cvf filename.tar  fiels
 /var/log/auth.log
 tail -f /var/log/auth.log
 
+
+systemctl status docker 
+free -m
+
+
