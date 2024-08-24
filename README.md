@@ -4,3 +4,4 @@ This is repo for all the commands regularly used while using the shell / termina
 
 Few more commands:
 systemctl status docker -> gives status of docker on the system
+free -m
